@@ -40,10 +40,6 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
   }
-  &__picture img {
-    height: 100%;
-    object-fit: cover;
-  }
 }
 @media screen and (max-width: 767px) {
   .gallery__item {
@@ -68,5 +64,8 @@
   .section-gallery {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+  .gallery__item {
+    width: 370px;
   }
 }
