@@ -1111,7 +1111,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .gallery__item {
+  .gallery__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
