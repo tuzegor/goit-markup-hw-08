@@ -64,7 +64,7 @@
     }
   }
 
-  &__nav-item:not(:last-child),
+  &__nav-item,
   &__contacts-item:first-child {
     margin-bottom: 32px;
   }

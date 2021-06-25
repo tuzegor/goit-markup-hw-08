@@ -365,7 +365,7 @@ body {
   color: var(--accent-color);
 }
 
-.mobile-menu__nav-item:not(:last-child), .mobile-menu__contacts-item:first-child {
+.mobile-menu__nav-item, .mobile-menu__contacts-item:first-child {
   margin-bottom: 32px;
 }
 
